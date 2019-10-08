@@ -31,6 +31,7 @@
         }
     
         constructor() {
+            console.log("gaudenz_constr1");
             super();
             //Constants
             if (!window._d3){
@@ -77,6 +78,8 @@
         };
 
         redraw() {
+console.log("Gaudenz_redraw1");
+
             if (this._widgetHeight < this._widgetWidth){
                 this._widgetWidth = this._widgetHeight;
             }
